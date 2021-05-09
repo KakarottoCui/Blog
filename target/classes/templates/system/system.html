@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<style type="text/css">
+	.btn_active{
+		background: #B0C4DE;
+	}
+	#system_home{
+		margin-left: 100px;
+		border-left: 1px solid #cdcdcd;
+		padding-left: 20px;
+	}
+</style>
+<div class="mcy_body">
+	<div id="home">
+		<ul class="breadcrumb">
+			<li><span class="glyphicon glyphicon-home"></span>&emsp;当前位置：</li>
+			<li class="active">系统管理</li>
+		</ul>
+		
+		<div class="btn-group-vertical" style="float: left; margin-top: 30px;">
+			<button type="button" onclick="systemView('system/user/manage', this)" class="btn btn-default btn_active">用户管理</button>
+			<button type="button" onclick="systemView('system/permission/manage', this)" class="btn btn-default">权限管理</button>
+			<button type="button" onclick="systemView('system/menu/manage', this)" class="btn btn-default">菜单管理</button>
+			<button type="button" onclick="systemView('system/role/manage', this)" class="btn btn-default">角色管理</button>
+		</div>
+		<div id="system_home">
+			
+		</div>
+		
+		<script type="text/javascript">
+			systemView('system/user/manage', $(".btn-group-vertical button:nth-child(1)"));
+		
+			function systemView(url, that){
+				$(".btn-default").removeClass('btn_active');
+				$(that).addClass('btn_active');
+				$("#system_home").load(url);
+			}
+		</script>
+	</div>
+</div>
