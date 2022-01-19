@@ -1,8 +1,8 @@
 # 个人博客
 
-演示链接：https://live.csdn.net/v/168875
+演示链接：https://live.csdn.net/v/181384
 
-本代码并非完整版，如需完整版请加QQ：821898835，承接商业项目和毕设代做！
+详询QQ：821898835，微信：egvh56ufy7hh，承接商业项目和毕设
 
 开发环境
 开发工具：Eclipse、jdk1.8、SpringBoot2.1.6版本项目
