@@ -5,9 +5,9 @@
 详询QQ：821898835，微信：egvh56ufy7hh，承接商业项目和毕设
 
 开发环境
-开发工具：Eclipse、jdk1.8、SpringBoot2.1.6版本项目
+开发工具：IDEA、jdk1.8、SpringBoot
 
-数据库：MySQL5.5
+数据库：MySQL5.7
 
 所用技术
 前端：LayUI、JQuery、HTML5+CSS3、Ajax
