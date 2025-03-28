@@ -1,6 +1,6 @@
 # 个人博客
 
-演示链接：https://live.csdn.net/v/314733
+演示链接：https://www.bilibili.com/video/BV1Uj411X7D4/
 
 
 详询 微信1：egvh56ufy7hh ，微信2：dabocode  。承接商业项目、课设、毕设和论文，包括但不限于Web、APP、小程序等，课设、毕设提供远程部署和不限次数代码解答！
