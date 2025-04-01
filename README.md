@@ -19,7 +19,7 @@
 
 安全控件：SpringSecurity
 
-页面采用：Thymeleaf
+页面采用：HTML，Thymeleaf，layUI
 
 项目管理：Maven
 
